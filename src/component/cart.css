@@ -1,0 +1,13 @@
+
+
+@media (max-width:422px){
+    #quantityAdded{
+        font-size: 0.7rem;
+    }
+    #add_icon,#remove-icon{
+        padding: 0.1rem 0.3rem;
+    }
+    #price{
+        font-size: 0.9rem;
+    }
+}
