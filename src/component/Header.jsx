@@ -8,6 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import shoppingbag from '../assets/bag_shopping_icon_231414.png'
 
 function Header() {
     const [showMenu, setShowMenu] = useState(false);
@@ -23,7 +24,7 @@ function Header() {
             <div className="p-2 flex justify-between header">
                 <div className="nested-header left-sec flex w-[20%] items-center">
                     <div className='img-sec w-[50%]'>
-                        <img src="https://cdn.icon-icons.com/icons2/3767/PNG/512/bag_shopping_icon_231414.png" alt="" />
+                    <img src={shoppingbag} alt="" />
                     </div>
                     <h1 className="p-3 heading ">SHOPPYGLOBE</h1>
                 </div>

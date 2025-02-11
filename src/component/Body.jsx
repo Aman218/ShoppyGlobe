@@ -3,6 +3,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
+import shoppingbag from '../assets/bag_shopping_icon_231414.png'
 function Body() {
     return (
         <>
@@ -21,7 +22,7 @@ function Body() {
 
             <footer className=' footer-sec w-[60%] mx-auto flex flex-col items-center'>
                 <div className='footer-sec1 flex items-center m-1'>
-                    <img src="https://cdn.icon-icons.com/icons2/3767/PNG/512/bag_shopping_icon_231414.png" alt="" width='40px' height='40px' />
+                    <img src={shoppingbag} alt="" width='40px' height='40px' />
 
                     <h1 className='text-2xl font-bold text-[#E19E58]' id='footer-head1'>ShoppyGlobe</h1>
                 </div>
